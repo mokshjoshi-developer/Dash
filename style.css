@@ -6,7 +6,6 @@
     --text-muted: #48484A;
 
     --color-green: #ccff00;
-    /* Vibrant Lime */
     --color-blue: #0A84FF;
     --color-orange: #FF9F0A;
     --color-red: #FF453A;
@@ -41,16 +40,13 @@ body {
 .app-container {
     width: 100%;
     max-width: 420px;
-    /* Mobile width simulation */
     background-color: var(--bg-color);
     min-height: 100vh;
     padding: var(--spacing-md);
     position: relative;
     padding-bottom: 80px;
-    /* Space for FAB */
 }
 
-/* Header & Calendar */
 .header {
     margin-bottom: var(--spacing-lg);
 }
@@ -103,7 +99,6 @@ body {
     margin-top: 2px;
 }
 
-/* Typography Helpers */
 .section-title {
     color: var(--text-secondary);
     font-size: 14px;
@@ -117,7 +112,6 @@ body {
     margin-top: var(--spacing-lg);
 }
 
-/* Current Task Card */
 .current-task-card {
     background-color: var(--card-bg);
     border-radius: var(--border-radius);
@@ -170,7 +164,6 @@ body {
     height: 24px;
     border-radius: 50%;
     border: 2px solid var(--text-secondary);
-    /* Unchecked state color */
     background: transparent;
     cursor: pointer;
     position: absolute;
@@ -184,7 +177,6 @@ body {
     border-color: var(--color-green);
 }
 
-/* Task List Items */
 .task-item {
     display: flex;
     align-items: center;
@@ -204,7 +196,6 @@ body {
     font-weight: bold;
 }
 
-/* Color Variiants */
 .bg-green {
     background-color: var(--color-green);
 }
@@ -259,11 +250,9 @@ body {
 
 .previous-list .list-check {
     background-color: var(--color-red);
-    /* Completed/Failed indicator style from image */
     border: none;
 }
 
-/* FAB */
 .add-task-btn {
     position: fixed;
     bottom: 30px;
@@ -284,7 +273,6 @@ body {
     z-index: 100;
 }
 
-/* Modal */
 .hidden {
     display: none !important;
 }
@@ -298,7 +286,6 @@ body {
     background: rgba(0, 0, 0, 0.8);
     display: flex;
     align-items: flex-end;
-    /* Sheet style on mobile */
     justify-content: center;
     z-index: 200;
 }
